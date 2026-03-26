@@ -16,7 +16,7 @@ import Tooltip from '@mui/material/Tooltip';
 import StatCard from "../../components/StatCard";
 import RevenueChart from "../../components/RevenueChart";
 import InvoiceTable from "../../components/InvoiceTable";
-import TopItemsChart from "../../components/topItemsChart";
+import TopItemsChart from "../../components/TopItemsChart";
 import { useNavigate } from "react-router";
 import { deleteInvoiceApi, ExportItemApi, getAllDashDataApi, getNetricesApi } from "../../services/apiServices";
 import { useSelector } from "react-redux";
